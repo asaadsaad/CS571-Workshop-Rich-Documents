@@ -1,5 +1,5 @@
 # CS571 - Workshop 01
-## Rich MongoDB Documents Exercise
+## MongoDB Rich Documents Workshop
 Please find below a schema structure for a bank application, each document has the following structure for `banks` collection:
 ```JavaScript
 {
