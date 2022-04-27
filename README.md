@@ -29,7 +29,7 @@ app.patch('/banks/:bank_id/users/:user_id/accounts/:account_id', async (req, res
     // YOUR QUERY HERE  
 })
 
-// Delete a student
+// Delete an account
 app.delete('/banks/:bank_id/users/:user_id/accounts/:account_id', async (req, res) => {
     // YOUR QUERY HERE
 })
