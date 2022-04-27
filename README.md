@@ -23,7 +23,7 @@ app.post('/banks/:bank_id/users/:user_id', async (req, res) => {
     // YOUR QUERY HERE
 })
 
-// Update a account's balance
+// Update an account's balance
 // The request body has {"amount": 200}
 app.patch('/banks/:bank_id/users/:user_id/accounts/:account_id', async (req, res) => {
     // YOUR QUERY HERE  
