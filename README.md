@@ -14,7 +14,22 @@ Please find below a schema structure for a bank application, each document has t
 ```
 Create an Express application that connects to a MongoDB instance (local or cloud service), and write code for 6 MongoDB queries within 3 pre-defined routes in `app.js` file:
 1. Add a new account to a specific user
-2. Update an account's number
+2. Update an account's balance
 3. Delete an account
-  
-*Note: Queries should comply with Rest design. You may use Mongoose if that's your preference.*
+```JavaScript
+// Add a new account to specific user, the request body has {"_id":2, "type": "credit", "number": 456, "routing": 456, "amount": 50}
+app.post('/banks/:bank_id/users/:user_id', async (req, res) => {
+    // YOUR QUERY HERE
+})
+
+// Update a account's balance, the request body has {"amount": 200}
+app.patch('/banks/:bank_id/users/:user_id/accounts/:account_id', async (req, res) => {
+    // YOUR QUERY HERE  
+})
+
+// Delete a student
+app.delete('/banks/:bank_id/users/:user_id/accounts/:account_id', async (req, res) => {
+    // YOUR QUERY HERE
+})
+```
+*Note: Queries should comply with REST design. You may use Mongoose if that's your preference.*
