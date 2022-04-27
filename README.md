@@ -5,10 +5,6 @@ Please find below a schema structure for a bank application, each document has t
 {
     "_id":1,
     "name: "BOA",
-    "branches": [
-        {"_id":1, "name": "NY"},
-        {"_id":2, "name": "IA"}
-    ],
     "users":[
         {"_id":1, "name": "Michael", "accounts":[
             {"_id":1, "type": "debit", "number": 123, "routing": 123, "amount": 100},
@@ -17,11 +13,8 @@ Please find below a schema structure for a bank application, each document has t
 }
 ```
 Create an Express application that connects to a MongoDB instance (local or cloud service), and write code for 6 MongoDB queries within 6 pre-defined routes in `app.js` file:
-1. Add a branch 
-2. Update branch by ID 
-3. Delete branch by ID 
-4. Add a new account to a specific user
-5. Update an account's number
-6. Delete an account
+1. Add a new account to a specific user
+2. Update an account's number
+3. Delete an account
   
 *Note: Queries should comply with Rest design. You may use Mongoose if that's your preference.*
