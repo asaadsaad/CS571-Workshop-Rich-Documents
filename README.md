@@ -12,7 +12,7 @@ Please find below a schema structure for a bank application, each document has t
     ]
 }
 ```
-Create an Express application that connects to a MongoDB instance (local or cloud service), and write code for 6 MongoDB queries within 6 pre-defined routes in `app.js` file:
+Create an Express application that connects to a MongoDB instance (local or cloud service), and write code for 6 MongoDB queries within 3 pre-defined routes in `app.js` file:
 1. Add a new account to a specific user
 2. Update an account's number
 3. Delete an account
